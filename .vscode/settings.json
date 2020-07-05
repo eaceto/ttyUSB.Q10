@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "python.autoComplete.extraPaths": [
+        null,
+        "/Users/kimi/.vscode/extensions/joedevivo.vscode-circuitpython-0.1.2/stubs",
+        "/Users/kimi/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20200704/adafruit-circuitpython-bundle-py-20200704/lib"
+    ]
+}
