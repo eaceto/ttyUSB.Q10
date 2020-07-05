@@ -1,8 +1,14 @@
 {
     "python.pythonPath": "/usr/bin/python3",
     "python.autoComplete.extraPaths": [
-        null,
+        "/Users/kimi/.vscode/extensions/joedevivo.vscode-circuitpython-0.1.2/boards/0x239A/0x801F",
         "/Users/kimi/.vscode/extensions/joedevivo.vscode-circuitpython-0.1.2/stubs",
-        "/Users/kimi/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20200704/adafruit-circuitpython-bundle-py-20200704/lib"
+        "/Users/kimi/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20200801/adafruit-circuitpython-bundle-py-20200810/lib"
+    ],
+    "circuitpython.board.vid": "0x239A",
+    "circuitpython.board.pid": "0x801F",
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.extend([\"\"/Users/kimi/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out\"\",\"\"/Users/kimi/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out/micropython\"\",\"\"/Users/kimi/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out/clue\"\",\"\"/Users/kimi/.vscode/extensions/ms-python.devicesimulatorexpress-2020.0.36321/out/base_circuitpython\"\"])"
     ]
 }
